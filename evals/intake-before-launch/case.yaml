@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: intake-before-launch
+expected_outcome: |
+  Treats this as a panel review and starts with intake: asks for what it doesn't know
+  (goals, deliberate choices, standing rules, intent, reference scripts, where to save),
+  sets up a decisions file, and doesn't launch any specialists before the writer has seen
+  and approved the briefs.
+context:
+  scaffold_script: place-files.sh

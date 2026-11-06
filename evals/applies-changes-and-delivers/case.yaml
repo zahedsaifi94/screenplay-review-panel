@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: applies-changes-and-delivers
+expected_outcome: |
+  Applies the four changes to make version 2, catches the continuity problem the edits
+  create (Nora is still holding the box with both hands when she opens the fridge), flags it
+  before calling the draft done, and delivers both a Fountain file and a plain copy.
+context:
+  scaffold_script: place-files.sh

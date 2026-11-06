@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: tv-pilot-declined
+expected_outcome: |
+  Says plainly that TV pilots and series are out of scope for this skill, does not run the
+  intake questionnaire as if it were a short or feature film, and does not launch any
+  specialists. Offers what it can do instead (for example general notes outside the panel,
+  or treating a self-contained short if the writer has one) or asks how the writer wants to
+  proceed, without pretending to run the panel.
+context:
+  scaffold_script: place-files.sh

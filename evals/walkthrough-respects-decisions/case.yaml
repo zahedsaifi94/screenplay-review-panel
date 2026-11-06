@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: walkthrough-respects-decisions
+expected_outcome: |
+  Presents the first point only, in the skill's point format, after saying how many points
+  there are and that the specialists are one AI. Doesn't recommend anything the decisions
+  file rules out, and labels anything that goes against it.
+context:
+  scaffold_script: place-files.sh

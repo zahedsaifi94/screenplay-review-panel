@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: asks-before-calling-errors
+expected_outcome: |
+  Doesn't present the lamp coming back on as a confirmed continuity error (it asks how the
+  lamp works or points to the timer line). Notices the panel reads Dev as cold while the
+  writer's intent says he isn't, and asks which reading is right before proposing a fix.
+context:
+  scaffold_script: place-files.sh

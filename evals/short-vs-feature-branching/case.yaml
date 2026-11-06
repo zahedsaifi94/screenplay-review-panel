@@ -1,0 +1,12 @@
+schema_version: "1.1"
+name: short-vs-feature-branching
+expected_outcome: |
+  Writes the seven specialist briefs for both projects without launching anyone, and shows
+  them for approval. The Structure brief for LEFTOVERS points at references/structure-shorts.md
+  and the one for NIGHT SHIFT at references/structure-features.md; the Format field is
+  'short' in one set and 'feature' in the other. The feature briefs ask for top ten changes,
+  sequence-by-sequence notes and name an output file for the full line-level list; the short
+  briefs ask for top five and no output file. No brief asks the short for a B-story, a
+  midpoint scene, or act structure.
+context:
+  scaffold_script: place-files.sh

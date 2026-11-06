@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: groups-small-fixes
+expected_outcome: |
+  Gives one grouped point split into 'Recommend changing' and 'Recommend keeping', with
+  current and new lines, and invites approval in one reply. The kept line 'He labeled the
+  soup.' is respected.
+context:
+  scaffold_script: place-files.sh

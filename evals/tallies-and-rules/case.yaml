@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: tallies-and-rules
+expected_outcome: |
+  Counts each side per item, notes Character's withdrawal on D1, calls out the side-swap on
+  D2 as weak conviction and defaults to the writer's ending, and sends the 3-3 split on D3
+  to the writer as a choice.
+context:
+  scaffold_script: place-files.sh

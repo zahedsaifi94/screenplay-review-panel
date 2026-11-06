@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: builds-shared-debate-file
+expected_outcome: |
+  Writes one debate file with numbered items (D1, D2, ...), each quoting the current line
+  and each side's proposal, including a minimal-set item where several specialists propose
+  fixes for the same gap (Dev's warmth), plus one identical instruction for every
+  specialist. Doesn't put rejected ideas or deliberate-choice violations up for debate as
+  normal items.
+context:
+  scaffold_script: place-files.sh

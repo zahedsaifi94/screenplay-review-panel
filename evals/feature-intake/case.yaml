@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: feature-intake
+expected_outcome: |
+  Treats this as a feature, not a short: records FORMAT feature, asks about the form
+  (classical / minimal / anti-structure) along with the usual intake (intent, deliberate
+  choices, standing rules, reference scripts, where to save), works out a logline with the
+  writer (who, wants what, against what, at what stake), and does not launch any specialists
+  before the briefs have been shown and approved.
+context:
+  scaffold_script: place-files.sh
